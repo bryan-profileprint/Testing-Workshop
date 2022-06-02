@@ -82,7 +82,7 @@ class TestMultTwo:
         assert mult_two(-20, -51) == 1020 
 
     def test_both_zeroes(self):
-        assert mult_two(0, 0) == -5 
+        assert mult_two(0, 0) == 0
 
     def test_positive_and_zero(self):
         assert mult_two(5, 0) == 0
