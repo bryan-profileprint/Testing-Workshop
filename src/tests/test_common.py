@@ -1,7 +1,4 @@
-import sys
-sys.path.append('.')
-
-from common import sum_two, mult_two
+from src.common import sum_two, mult_two
 
 
 # Step 1: Use asserts to check that the function works
