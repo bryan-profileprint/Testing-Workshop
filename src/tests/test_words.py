@@ -1,3 +1,15 @@
+"""
+# text 1 
+For although a man is judged by his actions, by what he has said and done, 
+a man judges himself by what he is willing to do, by what he might have said, or might have done 
+– a judgment that is necessarily hampered, bot only by the scope and limits of his imagination, but 
+by the ever-changing measure of his doubt and self esteem.
+
+# text 2
+Sam lay back, and stared with open mouth, and for a moment, between bewilderment and great joy,
+he could not answer. At last he gasped: “Gandalf! I thought you were dead! But then I thought I was dead myself. 
+Is everything sad going to come untrue? What’s happened to the world?
+"""
 import pytest
 from src.words import get_word_count
 
@@ -6,7 +18,7 @@ def multiline_text_1():
     return """For although a man is judged by his actions, by what he has said and done, 
             a man judges himself by what he is willing to do, by what he might have said, or might have done 
             – a judgment that is necessarily hampered, bot only by the scope and limits of his imagination, but 
-            by the ever-changing measure of his doubt and self-esteem."""
+            by the ever-changing measure of his doubt and self esteem."""
 
 @pytest.fixture
 def multiline_text_2():
